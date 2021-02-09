@@ -32,6 +32,6 @@ jobs:
               # Scan the latest git push
               git secrets --scan
               if [ $? -eq 0 ]; then
-              echo "git secrets --scan OK"
+              echo "git secrets --scan OKFAIL"
               else
               echo "git secrets --scan FAIL"
