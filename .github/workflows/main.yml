@@ -25,7 +25,7 @@ jobs:
         run: |
               git clone https://github.com/awslabs/git-secrets
               cd git-secrets
-              echo "Installing Secrets now"
+              echo `whoami`
               make install
               git secrets --install
               # Add support for AWS secret scan
