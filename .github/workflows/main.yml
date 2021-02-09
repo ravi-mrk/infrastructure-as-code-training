@@ -37,3 +37,4 @@ jobs:
               echo "git secrets --scan OKFAIL"
               else
               echo "git secrets --scan FAIL"
+              fi
